@@ -22,7 +22,7 @@ data "terraform_remote_state" "vpc" {
   backend = "s3"
   config = {
     bucket = "353818015911-remotestate"
-    key    = "pipeline-github/terraform.tfstate"
+    key    = "aws-vpc/terraform.tfstate"
     region = "us-east-1"
   }
 }
