@@ -8,7 +8,7 @@ env:
 jobs:
   terraform_plan:
     name: Terraform Plan
-    runs-on: ubuntu-lateste
+    runs-on: ubuntu-latest
     defaults:
       run:
         shell: bash
